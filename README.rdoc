@@ -1,0 +1,46 @@
+== README
+
+Rails JSON API for a simple Blog application. Performs simple operation like:
+	--Register User / Login
+	--Show all Posts, show by id, create post, updation & deletion is pending
+	--User can like a post
+	--User can comment on a post
+
+	##Next Update will implement
+	Exception control
+	DRY the code at few places.
+	comments edit and delete
+	Facebook login
+	Tests using Rspec
+
+NOTE: Commenting is done in controllers only.
+
+
+This README documents whatever steps are necessary to get the
+application up and running.
+
+Things you may want to check:
+
+* Ruby version should be > 2.0
+
+* Rails 4.x.x is required 
+
+* Install Redis on your machine (used as cache store).
+
+* Database used is postgres, So Install and configure pg on your machine
+
+* Pull the repository.
+
+* Run Bundle install (to install required gems).
+
+* Run the migrations.
+
+* Put your email address and password in config/enviroments/%ENV%.rb for actionmailer to send mails
+
+* Finally run the server (rails s)
+
+* ...
+
+
+Please feel free to contact if you are unable to run.
+
