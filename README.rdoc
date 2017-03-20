@@ -2,25 +2,25 @@
 
 Rails JSON API for a simple Blog application. Performs simple operation like:
 	
-	--Register User / Login
+1. Register User / Login
 	
-	--Show all Posts, show by id, create post, updation & deletion is pending
+2. Show all Posts, show by id, create post, updation & deletion is pending
 	
-	--User can like a post
+3. User can like a post
 	
-	--User can comment on a post
+4. User can comment on a post
 
 	##Next Update will implement
 	
-	Exception control
+	* Exception control
 	
-	DRY the code at few places.
+	* DRY the code at few places.
 	
-	comments edit and delete
+	* comments edit and delete
 	
-	Facebook login
+	* Facebook login
 	
-	Tests using Rspec
+	* Tests using Rspec
 
 NOTE: Commenting is done in controllers only.
 
